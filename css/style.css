@@ -19,6 +19,7 @@ a:hover {
   --second-black-5: rgba(28, 27, 25, 0.5);
   --primary-orange-2: rgba(255, 107, 1, 0.2);
   --bg-blue: #f7fbff;
+  --white: #ffffff;
   --second-font: "Satisfy", cursive;
 }
 /* color */
@@ -29,18 +30,50 @@ a:hover {
 .pri-bg-ora {
   background: var(--primary-orange);
 }
-.box{
+.box {
   background-color: #ffffff;
   padding: 42px 22px;
   margin-top: 32px;
 }
-
+.bor-bot {
+  border-bottom: 2px solid #f5f5f5;
+}
 .pri-orange {
   color: var(--primary-orange);
 }
 .input-foc:focus {
   box-shadow: none;
   border-color: var(--second-black);
+  background-color: var(--bg-blue);
+}
+.week-day > li {
+  border-bottom: 2px solid #f5f5f5 !important;
+}
+.week-day > li > a {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--second-black-5);
+}
+.week-day > li > a:hover {
+  color: var(--primary-orange) !important;
+}
+.btn-cust:hover {
+  background-color: var(--second-black) !important;
+}
+.add-number {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: var(--primary-orange);
+  transition: all 0.3s ease-in-out;
+  color: var(--white);
+}
+.add-number:hover {
+  background-color: var(--second-black);
 }
 .sec-black {
   color: var(--second-black);
@@ -67,29 +100,29 @@ a:hover {
 .fs-14 {
   font-size: 14px;
 }
-.h1{
-    font-size: 40px;
+.h1 {
+  font-size: 40px;
 }
-.h2{
-    font-size: 32px;
+.h2 {
+  font-size: 32px;
 }
-.h3{
-    font-size: 24px;
+.h3 {
+  font-size: 24px;
 }
-.h4{
-    font-size: 20px;
+.h4 {
+  font-size: 20px;
 }
-.h5{
-    font-size: 18px;
+.h5 {
+  font-size: 18px;
 }
-.h6{
-    font-size: 16px;
+.h6 {
+  font-size: 16px;
 }
 
 /* padding */
 .py-100 {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 /* margin */
 
@@ -129,6 +162,11 @@ a:hover {
 .navi-focu {
   border-top: 3px solid transparent;
   border-bottom: 3px solid transparent;
+}
+.navi-focu a:active,
+.navi-focu a:focus-visible {
+  border-radius: none !important;
+  background-color: transparent !important;
 }
 
 .bg-img-1::after {
@@ -209,33 +247,54 @@ a:hover {
   width: 60px;
   background-size: 290px;
 }
+.box-1 {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+.button-2 {
+  border: 1px solid rgba(28, 27, 25, 0.5);
+}
+.button-2:hover {
+  background-color: #ff6b01 !important;
+  color: #ffffff;
+  border-color: #ff6b01;
+}
+
 @media (min-width: 576px) {
 }
 @media (min-width: 768px) {
+  .py-100 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
   .whatsapp-icon {
     right: 30px;
     bottom: 30px;
   }
-  .h1{
+  .h1 {
     font-size: 52px;
-}
-.h2{
+  }
+  .h2 {
     font-size: 40px;
-}
-.h3{
+  }
+  .h3 {
     font-size: 26px;
-}
-.h4{
+  }
+  .h4 {
     font-size: 25px;
-}
-.h5{
+  }
+  .h5 {
     font-size: 22px;
-}
-.h6{
+  }
+  .h6 {
     font-size: 20px;
-}
+  }
 }
 @media (min-width: 992px) {
+  .py-100 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
 }
 @media (min-width: 1200px) {
 }

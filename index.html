@@ -11,28 +11,29 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Satisfy&display=swap" rel="stylesheet">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     />
-    <link
-      rel="icon"
-      href="images/fevicon.png"
-    />
+    <link rel="icon" href="images/fevicon.png" />
   </head>
   <body>
     <!-- header start -->
-    <header class="position-sticky top-0 z-3 bg-white">
+    <header class="position-sticky top-0 z-3">
       <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light p-0">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href=".">
             <img
-              src="images/Diwan-Tour-and-travels-Final-Logo.jpg"
-              alt="Your Logo" class="logo"
+              src="images/Diwan-Tour-and-travels-Final-Logo.svg"
+              alt="Your Logo"
+              class="logo"
             />
           </a>
           <button
@@ -52,19 +53,39 @@
           >
             <ul class="navbar-nav mx-auto column-gap-3">
               <li class="nav-item navi-focu">
-                <a class="nav-link fs-6 py-lg-4 py-3 text-black text-hov-ora" href="#">Home</a>
+                <a
+                  class="nav-link fs-6 py-lg-4 py-2 text-black text-hov-ora"
+                  href="."
+                  >Home</a
+                >
               </li>
               <li class="nav-item navi-focu">
-                <a class="nav-link fs-6 py-lg-4 py-3  text-black text-hov-ora" href="#">Abouts</a>
+                <a
+                  class="nav-link fs-6 py-lg-4 py-2 text-black text-hov-ora"
+                  href="./about-us.html"
+                  >Abouts</a
+                >
+              </li>
+              <li class="nav-item dropdown navi-focu">
+                <a class="nav-link dropdown-toggle fs-6 py-lg-4 py-2 text-black text-hov-ora" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Package
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item fs-6  py-2 text-black text-hov-ora" href="./package.html">Package</a></li>
+                  <li><a class="dropdown-item fs-6  py-2 text-black text-hov-ora" href="./packageall.html">Package Details</a></li>
+             
+                </ul>
               </li>
               <li class="nav-item navi-focu">
-                <a class="nav-link fs-6 py-lg-4 py-3  text-black text-hov-ora" href="#">Package</a>
-              </li>
-              <li class="nav-item navi-focu">
-                <a class="nav-link fs-6 py-lg-4 py-3  text-black text-hov-ora" href="#">Contact us</a>
+                <a
+                  class="nav-link fs-6 py-lg-4 py-2 text-black text-hov-ora"
+                  href="./contact.html"
+                  >Contact us</a
+                >
               </li>
             </ul>
-            <a href="#" class="text-black fs-6 ps-lg-4 ps-3 text-hov-ora"
+            <div>
+              <a href="#" class="text-black fs-6 ps-lg-4 ps-0 py-2 ps-lg-3  py-lg-3 text-hov-ora d-block d-lg-inline-block"
               ><svg
                 data-slot="icon"
                 fill="none"
@@ -81,9 +102,11 @@
                   stroke-linecap="round"
                   stroke-linejoin="round"
                   d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"
-                ></path></svg>info@example.com</a
+                ></path>
+              </svg>
+              info@example.com</a
             >
-            <a href="#" class="text-black fs-6  ps-lg-4 ps-3 text-hov-ora"
+            <a href="#" class="text-black fs-6 ps-lg-4 ps-0 ps-lg-3 py-2  py-lg-3  text-hov-ora d-lg-inline-block"
               ><svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -102,13 +125,14 @@
               </svg>
               +911234567891</a
             >
+            </div>
           </div>
         </nav>
       </div>
     </header>
     <!-- hero section start -->
     <section class="bg-img-1 position-relative">
-      <div class="">
+      <div>
         <!-- <div class="swiper mySwiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
@@ -204,35 +228,36 @@
           </div>
         </div> -->
         <div
-        class="d-flex hei-100 justify-content-center align-items-center position-relative z-2"
-      >
-        <div class="text-center">
-          <span class="fs-5 fw-semibold text-white second-font"
-            >discover the planet</span
-          >
-          <h1 class="fw-semibold mb-2 text-white h1">
-            creating memories that last...
-          </h1>
-          <p class="fs-6 fw-medium mb-0 text-white">
-            Our average personal current account online This statistic
-            is based on
-          </p>
+          class="d-flex hei-100 justify-content-center align-items-center position-relative z-2"
+        >
+          <div class="text-center">
+            <span class="fs-5 fw-semibold text-white second-font"
+              >discover the planet</span
+            >
+            <h1 class="fw-semibold mb-2 text-white h1">
+              creating memories that last...
+            </h1>
+            <p class="fs-6 fw-medium mb-0 text-white">
+              Our average personal current account online This statistic is
+              based on
+            </p>
+          </div>
         </div>
-      </div>
       </div>
     </section>
     <!-- section 2 start -->
     <section class="py-100 bg-blue">
       <div class="container">
-        <div class="row align-items-center">
-          <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
             <p class="mb-0 fs-4 fw-normal pri-orange second-font">about us</p>
             <h2 class="h2 sec-black fw-semibold">
               we specialize in creating unforgettable travel experiences.
             </h2>
             <p class="sec-black-5 mb-0 fw-normal">
-              in some of India's most stunning destinations. With a passion for exploration and a commitment to excellence, we have been providing our clients with exceptional service.
-
+              in some of India's most stunning destinations. With a passion for
+              exploration and a commitment to excellence, we have been providing
+              our clients with exceptional service.
             </p>
             <div class="mt-4">
               <div class="d-flex gap-3">
@@ -259,8 +284,8 @@
                 <div>
                   <h3 class="sec-black h3 fw-bold">International Tours</h3>
                   <p class="sec-black-5 fs-6 fw-normal">
-                    Whether you seek a peaceful retreat, thrilling adventure, or cultural immersion, we have the perfect trip for you.
-
+                    Whether you seek a peaceful retreat, thrilling adventure, or
+                    cultural immersion, we have the perfect trip for you.
                   </p>
                 </div>
               </div>
@@ -286,11 +311,10 @@
                   </svg>
                 </div>
                 <div>
-                  <h3 class="sec-black h3 fw-bold">
-                  Memorable Experiences
-                  </h3>
+                  <h3 class="sec-black h3 fw-bold">Memorable Experiences</h3>
                   <p class="sec-black-5 fs-6 fw-normal">
-                    Join us on a journey of discovery and adventure, creating memories that last a lifetime!
+                    Join us on a journey of discovery and adventure, creating
+                    memories that last a lifetime!
                   </p>
                 </div>
               </div>
@@ -330,9 +354,8 @@
     <section class="py-100">
       <div class="container">
         <div class="col-xl-5 mx-auto Product text-center">
-          <p class="fs-2 pri-orange second-font mb-0"> Travic</p>
-          <h2 class="h2 sec-black mb-0 fw-bold">Why choose us.
-          </h2>
+          <p class="fs-2 pri-orange second-font mb-0">Travic</p>
+          <h2 class="h2 sec-black mb-0 fw-bold">Why choose us.</h2>
         </div>
         <div class="row">
           <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
@@ -342,7 +365,8 @@
               ></a>
               <h3 class="second-black h3">Safety and Security</h3>
               <p class="sec-black-5 fs-6 word-clip">
-                 Your safety is our top priority. We partner with trusted local guides and drivers to ensure your travels are safe and secure.
+                Your safety is our top priority. We partner with trusted local
+                guides and drivers to ensure your travels are safe and secure.
               </p>
             </div>
           </div>
@@ -353,7 +377,9 @@
               ></a>
               <h3 class="second-black h3">Exceptional Service</h3>
               <p class="sec-black-5 fs-6 word-clip">
-                 Our team is dedicated to providing you with the highest level of service from the moment you inquire about a trip to the time you return home
+                Our team is dedicated to providing you with the highest level of
+                service from the moment you inquire about a trip to the time you
+                return home
               </p>
             </div>
           </div>
@@ -364,12 +390,11 @@
               ></a>
               <h3 class="second-black h3">Customer Satisfaction</h3>
               <p class="sec-black-5 fs-6 word-clip">
-                 Our goal is to exceed your expectations and ensure you have a memorable and enjoyable travel experience.
-
+                Our goal is to exceed your expectations and ensure you have a
+                memorable and enjoyable travel experience.
               </p>
             </div>
           </div>
-          
         </div>
       </div>
     </section>
@@ -432,9 +457,7 @@
                 </div>
                 <div class="p-4">
                   <p class="fs-6">Australia</p>
-                  <h3 class="h3 second-black fw-bold">
-                    Ocean on the Maldive
-                  </h3>
+                  <h3 class="h3 second-black fw-bold">Ocean on the Maldive</h3>
                   <p class="fs-6 second-black-5 mb-3">
                     from-<span class="pri-orange fs-5 fw-semibold"
                       >$144.00</span
@@ -506,7 +529,7 @@
       </div>
     </section>
     <!-- section 5 start -->
-    <section class="py-100">
+    <section class="py-100 pb-5">
       <div class="container">
         <div class="text-center mb-5">
           <span class="fs-4 fw-normal pri-orange second-font">Tour Types</span>
@@ -649,7 +672,7 @@
     <!-- section 6 start -->
     <section class="py-100 ">
       <div class="container">
-        <div class=" mb-5">
+        <div class="mb-5">
           <span class="fs-4 fw-normal pri-orange second-font">Top Places</span>
           <h2 class="h2 sec-black fw-semibold">Top Visited Places</h2>
         </div>
@@ -757,7 +780,9 @@
     <section class="py-100 bg-blue">
       <div class="container">
         <div class="text-center mb-5">
-          <span class="fs-4 fw-normal pri-orange second-font">Testimonials</span>
+          <span class="fs-4 fw-normal pri-orange second-font"
+            >Testimonials</span
+          >
           <h2 class="h2 sec-black fw-semibold">Love from our Clients</h2>
         </div>
 
@@ -765,7 +790,9 @@
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <div class="p-5 bg-white rounded-3">
-                <div class="d-flex align-items-center justify-content-between flex-wrap flex-sm-nowrap">
+                <div
+                  class="d-flex align-items-center justify-content-between flex-wrap flex-sm-nowrap"
+                >
                   <div class="d-flex align-items-center gap-3">
                     <div class="rounded-circle">
                       <img
@@ -873,7 +900,9 @@
             </div>
             <div class="swiper-slide">
               <div class="p-5 bg-white rounded-3">
-                <div class="d-flex align-items-center justify-content-between flex-wrap flex-sm-nowrap">
+                <div
+                  class="d-flex align-items-center justify-content-between flex-wrap flex-sm-nowrap"
+                >
                   <div class="d-flex align-items-center gap-3">
                     <div class="rounded-circle">
                       <img
@@ -981,7 +1010,9 @@
             </div>
             <div class="swiper-slide">
               <div class="p-5 bg-white rounded-3">
-                <div class="d-flex align-items-center justify-content-between flex-wrap flex-sm-nowrap">
+                <div
+                  class="d-flex align-items-center justify-content-between flex-wrap flex-sm-nowrap"
+                >
                   <div class="d-flex align-items-center gap-3">
                     <div class="rounded-circle">
                       <img
@@ -1089,7 +1120,9 @@
             </div>
             <div class="swiper-slide">
               <div class="p-5 bg-white rounded-3">
-                <div class="d-flex align-items-center justify-content-between flex-wrap flex-sm-nowrap">
+                <div
+                  class="d-flex align-items-center justify-content-between flex-wrap flex-sm-nowrap"
+                >
                   <div class="d-flex align-items-center gap-3">
                     <div class="rounded-circle">
                       <img
@@ -1197,7 +1230,9 @@
             </div>
             <div class="swiper-slide">
               <div class="p-5 bg-white rounded-3">
-                <div class="d-flex align-items-center justify-content-between flex-wrap flex-sm-nowrap">
+                <div
+                  class="d-flex align-items-center justify-content-between flex-wrap flex-sm-nowrap"
+                >
                   <div class="d-flex align-items-center gap-3">
                     <div class="rounded-circle">
                       <img
@@ -1305,7 +1340,9 @@
             </div>
             <div class="swiper-slide">
               <div class="p-5 bg-white rounded-3">
-                <div class="d-flex align-items-center justify-content-between flex-wrap flex-sm-nowrap">
+                <div
+                  class="d-flex align-items-center justify-content-between flex-wrap flex-sm-nowrap"
+                >
                   <div class="d-flex align-items-center gap-3">
                     <div class="rounded-circle">
                       <img
@@ -1464,8 +1501,6 @@
                   >Packages</a
                 >
               </li>
-              
-             
             </ul>
           </div>
           <div class="col-xl-2 col-lg-2 col-md-2 col-sm-6 col-12">
@@ -1482,51 +1517,54 @@
                 <a
                   href="#"
                   class="fs-6 fw-normal text-white py-2 d-inline-block"
-                  >Shimla Tour </a
-                >
+                  >Shimla Tour
+                </a>
               </li>
               <li>
                 <a
                   href="#"
                   class="fs-6 fw-normal text-white py-2 d-inline-block"
-                  > Manali Tour</a
+                >
+                  Manali Tour</a
                 >
               </li>
-              
             </ul>
           </div>
           <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
             <h6 class="text-white fw-bold h6 my-3">Accepted Here</h6>
             <div class="pt-3">
-              <ul class="ps-0  mb-4 mt-1 d-flex align-items-center gap-2">
-               <li class="payment-1 payment"></li>
-               <li class="payment-2 payment"></li>
-               <li class="payment-3 payment"></li>
-               <li class="payment-4 payment"></li>
+              <ul class="ps-0 mb-4 mt-1 d-flex align-items-center gap-2">
+                <li class="payment-1 payment"></li>
+                <li class="payment-2 payment"></li>
+                <li class="payment-3 payment"></li>
+                <li class="payment-4 payment"></li>
               </ul>
               <div>
                 <p class="fs-4 fw-semibold text-white mb-2">Follow as</p>
-              
-              <ul class="ps-0 mb-0 d-flex align-items-center column-gap-5">
-                <li>
-                  <a href="#" class="text-white fs-4 d-inline-block"
-                    ><i class="fa-brands fa-instagram"></i></a>
-                </li>
-                <li>
-                  <a href="#" class="text-white fs-4 d-inline-block"
-                    ><i class="fa-brands fa-facebook-f"></i></a>
-                </li>
-                <li>
-                  <a href="#" class="text-white fs-4 d-inline-block"
-                    ><i class="fa-brands fa-x-twitter"></i></a>
-                </li>
-                <li>
-                  <a href="#" class="text-white fs-4 d-inline-block"
-                    ><i class="fa-brands fa-youtube"></i></a>
-                </li>
-                
-              </ul>
-            </div>
+
+                <ul class="ps-0 mb-0 d-flex align-items-center column-gap-5">
+                  <li>
+                    <a href="#" class="text-white fs-4 d-inline-block"
+                      ><i class="fa-brands fa-instagram"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-white fs-4 d-inline-block"
+                      ><i class="fa-brands fa-facebook-f"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-white fs-4 d-inline-block"
+                      ><i class="fa-brands fa-x-twitter"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-white fs-4 d-inline-block"
+                      ><i class="fa-brands fa-youtube"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -1536,9 +1574,38 @@
     <div>
       <a href="whatsapp://send?phone=+919079828177">
         <!-- <i class="fa-brands fa-square-whatsapp whatsapp-icon z-3"></i> -->
-        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="60" height="60" viewBox="0 0 48 48" class="whatsapp-icon z-3">
-          <path fill="#fff" d="M4.868,43.303l2.694-9.835C5.9,30.59,5.026,27.324,5.027,23.979C5.032,13.514,13.548,5,24.014,5c5.079,0.002,9.845,1.979,13.43,5.566c3.584,3.588,5.558,8.356,5.556,13.428c-0.004,10.465-8.522,18.98-18.986,18.98c-0.001,0,0,0,0,0h-0.008c-3.177-0.001-6.3-0.798-9.073-2.311L4.868,43.303z"></path><path fill="#fff" d="M4.868,43.803c-0.132,0-0.26-0.052-0.355-0.148c-0.125-0.127-0.174-0.312-0.127-0.483l2.639-9.636c-1.636-2.906-2.499-6.206-2.497-9.556C4.532,13.238,13.273,4.5,24.014,4.5c5.21,0.002,10.105,2.031,13.784,5.713c3.679,3.683,5.704,8.577,5.702,13.781c-0.004,10.741-8.746,19.48-19.486,19.48c-3.189-0.001-6.344-0.788-9.144-2.277l-9.875,2.589C4.953,43.798,4.911,43.803,4.868,43.803z"></path><path fill="#cfd8dc" d="M24.014,5c5.079,0.002,9.845,1.979,13.43,5.566c3.584,3.588,5.558,8.356,5.556,13.428c-0.004,10.465-8.522,18.98-18.986,18.98h-0.008c-3.177-0.001-6.3-0.798-9.073-2.311L4.868,43.303l2.694-9.835C5.9,30.59,5.026,27.324,5.027,23.979C5.032,13.514,13.548,5,24.014,5 M24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974 M24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974 M24.014,4C24.014,4,24.014,4,24.014,4C12.998,4,4.032,12.962,4.027,23.979c-0.001,3.367,0.849,6.685,2.461,9.622l-2.585,9.439c-0.094,0.345,0.002,0.713,0.254,0.967c0.19,0.192,0.447,0.297,0.711,0.297c0.085,0,0.17-0.011,0.254-0.033l9.687-2.54c2.828,1.468,5.998,2.243,9.197,2.244c11.024,0,19.99-8.963,19.995-19.98c0.002-5.339-2.075-10.359-5.848-14.135C34.378,6.083,29.357,4.002,24.014,4L24.014,4z"></path><path fill="#40c351" d="M35.176,12.832c-2.98-2.982-6.941-4.625-11.157-4.626c-8.704,0-15.783,7.076-15.787,15.774c-0.001,2.981,0.833,5.883,2.413,8.396l0.376,0.597l-1.595,5.821l5.973-1.566l0.577,0.342c2.422,1.438,5.2,2.198,8.032,2.199h0.006c8.698,0,15.777-7.077,15.78-15.776C39.795,19.778,38.156,15.814,35.176,12.832z"></path><path fill="#fff" fill-rule="evenodd" d="M19.268,16.045c-0.355-0.79-0.729-0.806-1.068-0.82c-0.277-0.012-0.593-0.011-0.909-0.011c-0.316,0-0.83,0.119-1.265,0.594c-0.435,0.475-1.661,1.622-1.661,3.956c0,2.334,1.7,4.59,1.937,4.906c0.237,0.316,3.282,5.259,8.104,7.161c4.007,1.58,4.823,1.266,5.693,1.187c0.87-0.079,2.807-1.147,3.202-2.255c0.395-1.108,0.395-2.057,0.277-2.255c-0.119-0.198-0.435-0.316-0.909-0.554s-2.807-1.385-3.242-1.543c-0.435-0.158-0.751-0.237-1.068,0.238c-0.316,0.474-1.225,1.543-1.502,1.859c-0.277,0.317-0.554,0.357-1.028,0.119c-0.474-0.238-2.002-0.738-3.815-2.354c-1.41-1.257-2.362-2.81-2.639-3.285c-0.277-0.474-0.03-0.731,0.208-0.968c0.213-0.213,0.474-0.554,0.712-0.831c0.237-0.277,0.316-0.475,0.474-0.791c0.158-0.317,0.079-0.594-0.04-0.831C20.612,19.329,19.69,16.983,19.268,16.045z" clip-rule="evenodd"></path>
-          </svg>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          x="0px"
+          y="0px"
+          width="60"
+          height="60"
+          viewBox="0 0 48 48"
+          class="whatsapp-icon z-3"
+        >
+          <path
+            fill="#fff"
+            d="M4.868,43.303l2.694-9.835C5.9,30.59,5.026,27.324,5.027,23.979C5.032,13.514,13.548,5,24.014,5c5.079,0.002,9.845,1.979,13.43,5.566c3.584,3.588,5.558,8.356,5.556,13.428c-0.004,10.465-8.522,18.98-18.986,18.98c-0.001,0,0,0,0,0h-0.008c-3.177-0.001-6.3-0.798-9.073-2.311L4.868,43.303z"
+          ></path>
+          <path
+            fill="#fff"
+            d="M4.868,43.803c-0.132,0-0.26-0.052-0.355-0.148c-0.125-0.127-0.174-0.312-0.127-0.483l2.639-9.636c-1.636-2.906-2.499-6.206-2.497-9.556C4.532,13.238,13.273,4.5,24.014,4.5c5.21,0.002,10.105,2.031,13.784,5.713c3.679,3.683,5.704,8.577,5.702,13.781c-0.004,10.741-8.746,19.48-19.486,19.48c-3.189-0.001-6.344-0.788-9.144-2.277l-9.875,2.589C4.953,43.798,4.911,43.803,4.868,43.803z"
+          ></path>
+          <path
+            fill="#cfd8dc"
+            d="M24.014,5c5.079,0.002,9.845,1.979,13.43,5.566c3.584,3.588,5.558,8.356,5.556,13.428c-0.004,10.465-8.522,18.98-18.986,18.98h-0.008c-3.177-0.001-6.3-0.798-9.073-2.311L4.868,43.303l2.694-9.835C5.9,30.59,5.026,27.324,5.027,23.979C5.032,13.514,13.548,5,24.014,5 M24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974 M24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974C24.014,42.974,24.014,42.974,24.014,42.974 M24.014,4C24.014,4,24.014,4,24.014,4C12.998,4,4.032,12.962,4.027,23.979c-0.001,3.367,0.849,6.685,2.461,9.622l-2.585,9.439c-0.094,0.345,0.002,0.713,0.254,0.967c0.19,0.192,0.447,0.297,0.711,0.297c0.085,0,0.17-0.011,0.254-0.033l9.687-2.54c2.828,1.468,5.998,2.243,9.197,2.244c11.024,0,19.99-8.963,19.995-19.98c0.002-5.339-2.075-10.359-5.848-14.135C34.378,6.083,29.357,4.002,24.014,4L24.014,4z"
+          ></path>
+          <path
+            fill="#40c351"
+            d="M35.176,12.832c-2.98-2.982-6.941-4.625-11.157-4.626c-8.704,0-15.783,7.076-15.787,15.774c-0.001,2.981,0.833,5.883,2.413,8.396l0.376,0.597l-1.595,5.821l5.973-1.566l0.577,0.342c2.422,1.438,5.2,2.198,8.032,2.199h0.006c8.698,0,15.777-7.077,15.78-15.776C39.795,19.778,38.156,15.814,35.176,12.832z"
+          ></path>
+          <path
+            fill="#fff"
+            fill-rule="evenodd"
+            d="M19.268,16.045c-0.355-0.79-0.729-0.806-1.068-0.82c-0.277-0.012-0.593-0.011-0.909-0.011c-0.316,0-0.83,0.119-1.265,0.594c-0.435,0.475-1.661,1.622-1.661,3.956c0,2.334,1.7,4.59,1.937,4.906c0.237,0.316,3.282,5.259,8.104,7.161c4.007,1.58,4.823,1.266,5.693,1.187c0.87-0.079,2.807-1.147,3.202-2.255c0.395-1.108,0.395-2.057,0.277-2.255c-0.119-0.198-0.435-0.316-0.909-0.554s-2.807-1.385-3.242-1.543c-0.435-0.158-0.751-0.237-1.068,0.238c-0.316,0.474-1.225,1.543-1.502,1.859c-0.277,0.317-0.554,0.357-1.028,0.119c-0.474-0.238-2.002-0.738-3.815-2.354c-1.41-1.257-2.362-2.81-2.639-3.285c-0.277-0.474-0.03-0.731,0.208-0.968c0.213-0.213,0.474-0.554,0.712-0.831c0.237-0.277,0.316-0.475,0.474-0.791c0.158-0.317,0.079-0.594-0.04-0.831C20.612,19.329,19.69,16.983,19.268,16.045z"
+            clip-rule="evenodd"
+          ></path>
+        </svg>
       </a>
     </div>
     <script src="js/bootstrap.bundle.min.js"></script>
@@ -1609,7 +1676,7 @@
             slidesPerView: 1,
             spaceBetween: 20,
           },
-          992:{
+          992: {
             slidesPerView: 2,
             spaceBetween: 20,
           },
@@ -1627,5 +1694,6 @@
         },
       });
     </script>
+   
   </body>
 </html>
